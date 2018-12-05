@@ -17,6 +17,7 @@ Notes on source data:
 ## Process  
 
 To run _marcxml2ead.xsl_ with Saxon, execute the following:
+
 `java -jar saxon9he.jar -s:sample_data/merged_records/ -xsl:marcxml2ead.xsl -o:sample_data/ead/`
 
 - Update _-s_ with the path to your source directory.
