@@ -38,15 +38,15 @@ __NOTE: The resulting document is not valid MARCXML.__
 - It creates a <holdings> wrapper tag and copies the full <record> for each holdings record into this wrapper.
 - It names the resulting file with an Mss. number identifer, the item title, and the name of the source directory.
 
-To run this XSLT stylesheet with Saxon, pass the name of each MARCXML directory as the "current_folder" parameter. For the sample data, execute the following:
+To run this XSLT stylesheet with Saxon, pass the name of each MARCXML directory as the "current_folder" parameter. You can use the included bash script _marcxml_holdings_merge.sh_, which is a shortcut to the following:
 
 ```
-java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=2152
-java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=7229
-java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=8328
-java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=9922
-java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=10519
-java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=13030
+java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=sample_data/catalog_export/2152
+java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=sample_data/catalog_export/7229
+java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=sample_data/catalog_export/8328
+java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=sample_data/catalog_export/9922
+java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=sample_data/catalog_export/10519
+java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=sample_data/catalog_export/13030
 ```
 
 Note that the command specifies the XSLT stylesheet as both the source (_-s_) and XSL (_-xsl_). The paths are specified within the stylesheet itself, and the folder name is passed as a parameter.
@@ -60,6 +60,6 @@ First, be sure to have downloaded Saxon to your local machine. The example comma
 
 * `ln -s /opt/saxon/saxon9he.jar saxon9he.jar`
 * `java -jar saxon9he.jar -s:marcxml_holdings_merge.xsl -xsl:marcxml_holdings_merge.xsl current_folder=2152`
-* `java -jar saxon9he.jar -s:sample_data\merged_records\ -xsl:marcxml2ead.xsl -o:sample_data\ead\`
+* `java -jar saxon9he.jar -s:sample_data/merged_records/ -xsl:marcxml2ead.xsl -o:sample_data/ead/`
 
 Saxon HE is on SourceForge, somewhere like this: https://sourceforge.net/projects/saxon/files/Saxon-HE/9.8/

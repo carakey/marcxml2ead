@@ -17,7 +17,7 @@
     <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
     
     <xsl:param name="current_folder"/>
-    <xsl:variable name="folder_name" select="concat('sample_data/catalog_export/',$current_folder)"/>
+    <xsl:variable name="folder_name" select="$current_folder"/>
     
     <!-- $mss_directory = the directory of files related to a single collection -->
     <xsl:variable name="mss_directory" select="collection($folder_name)"/>
