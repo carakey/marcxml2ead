@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:ead="urn:isbn:1-931666-22-9"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     relatedencoding="MARC21">
+   <eadheader countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              repositoryencoding="iso15511"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924">
+      <eadid mainagencycode="US-lu"
+             countrycode="US"
+             url="http://www.lib.lsu.edu/sites/default/files/sc/findaid/4439.xml"/>
+      <filedesc>
+         <titlestmt>
+            <titleproper>A Guide to the Antal Vállas And Family Papers</titleproper>
+            <subtitle>A Collection in the Louisiana and Lower Mississippi Valley Collections</subtitle>
+            <author>LSU Libraries Special Collections Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>LSU Libraries Special Collections</publisher>
+            <address>
+               <addressline>Hill Memorial Library</addressline>
+               <addressline>95 Field House Drive</addressline>
+               <addressline>Baton Rouge, LA 70803</addressline>
+            </address>
+            <date>2018</date>
+         </publicationstmt>
+      </filedesc>
+   </eadheader>
+   <archdesc level="collection" type="inventory" relatedencoding="MARC21">
+      <did>
+         <unittitle encodinganalog="245$a">Antal Vállas And Family Papers</unittitle>
+         <unitid countrycode="US" encodinganalog="099" repositorycode="US-lu">Mss. 4439</unitid>
+         <unitdate type="inclusive" encodinganalog="245$f" normal="1831/1995">1831-1995</unitdate>
+         <unitdate type="bulk" encodinganalog="245$g" normal="1841/1968">1841-1968</unitdate>
+         <origination>
+            <persname encodinganalog="100">Vállas, Antal, 1809-1869</persname>
+         </origination>
+         <physdesc>
+            <extent encodinganalog="300$a">2.25 linear feet</extent>
+            <extent encodinganalog="300$a">5 volumes</extent>
+         </physdesc>
+         <langmaterial encodinganalog="546$a">
+            <language langcode="eng">English</language>
+            <language langcode="hun">Hungarian</language>
+            <language langcode="ger">German</language>
+         </langmaterial>
+         <repository encodinganalog="852$a">
+            <corpname>LSU Libraries Special Collections</corpname>
+            <subarea>Louisiana and Lower Mississippi Valley Collection</subarea>
+         </repository>
+         <physloc encodinganalog="852$h">109:33-34; J:26-27; OS:V; VAULT:1</physloc>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <p>Originals in the vault are not to be accessed; use photocopies instead.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <p>Physical rights are retained by the LSU Libraries. Copyright is retained in accordance with U.S. copyright laws.</p>
+      </userestrict>
+      <relatedmaterial encodinganalog="544 1">
+         <p>Anthony Vallas History, Mss. 965, Louisiana and Lower Mississippi Valley Collections, LSU Libraries, Baton Rouge, La.</p>
+      </relatedmaterial>
+      <prefercite encodinganalog="524">
+         <p>Antal Vállas and Family Papers, Mss. 4439, Louisiana and Lower Mississippi Valley Collections, LSU Libraries, Baton Rouge, La.</p>
+      </prefercite>
+      <altformavail encodinganalog="530">
+         <p>William T. Sherman, P.G.T. Beauregard, Thomas Overton Moore and Leonidas Polk letters are available as photocopies.</p>
+      </altformavail>
+      <bioghist encodinganalog="545">
+         <p>Antal Vállas was born on May 18, 1809, in the present-day city of Budapest, Hungary. After moving to Louisiana, he was the first professor elected to the Louisiana State Seminary of Learning in 1859 and later served as Superintendent.</p>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <p>The Antal Vállas and Family Papers consist of correspondence, printed items, personal papers and photographs related to the personal and professional life of Vállas and his descendents. The correspondence relates to the move of Vállas' family from his native Hungary to Nicaragua and eventually New Orleans and his employment as a professor at the Louisiana State Seminary of Learning and Military Academy and as an Episcopalian minister. The printed items consist of Vállas' Hungarian publications, as well as clippings, invitations and programs.</p>
+      </scopecontent>
+      <otherfindaid encodinganalog="555">
+         <p>Finding aid available.</p>
+      </otherfindaid>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Vállas, Antal, 1809-1869.</persname>
+         <persname source="lcnaf" encodinganalog="600">Vallas, Horace, 1852-1909.</persname>
+         <persname source="lcnaf" encodinganalog="600">Vallas, Miner Howard, 1897-1930.</persname>
+         <persname source="lcnaf" encodinganalog="600">Vallas, Beverly Warner, b. 1901.</persname>
+         <persname source="lcnaf" encodinganalog="600">Vallas, Edna, b. 1884.</persname>
+         <persname source="lcnaf" encodinganalog="600">Schüller, Stefan, 1851-1938.</persname>
+         <famname source="lcnaf" encodinganalog="600 3">Vallas family.</famname>
+         <corpname source="lcnaf" encodinganalog="610">Episcopal Church. Louisiana (Diocese)</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Louisiana State Seminary of Learning and Military Academy.</corpname>
+         <corpname source="lcnaf" encodinganalog="610">Episcopal Church -- Louisiana -- New Orleans -- Clergy.</corpname>
+         <subject source="lcsh" encodinganalog="650">Hungarians -- United States.</subject>
+         <geogname source="lcsh" encodinganalog="651">Hungary -- History.</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Personal narratives, Confederate.</geogname>
+         <genreform source="aat" encodinganalog="655">Correspondence.</genreform>
+         <genreform source="aat" encodinganalog="655">Photographic prints.</genreform>
+         <genreform source="aat" encodinganalog="655">Atlases.</genreform>
+         <genreform source="aat" encodinganalog="655">Sermons.</genreform>
+         <occupation source="lcsh" encodinganalog="656">College teachers -- Louisiana -- Baton Rouge.</occupation>
+      </controlaccess>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unittitle>Antal Vállas And Family Papers</unittitle>
+               <container>Box 1-5</container>
+               <physloc>109:33-34</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Antal Vállas And Family Papers</unittitle>
+               <container>V.1-5</container>
+               <physloc>J:26-27</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Antal Vállas And Family Papers</unittitle>
+               <container>Folder 1-3</container>
+               <physloc>OS:V</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Antal Vállas And Family Papers</unittitle>
+               <container>Folder 1</container>
+               <physloc>VAULT:1</physloc>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

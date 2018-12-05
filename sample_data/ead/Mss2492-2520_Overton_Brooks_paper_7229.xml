@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:ead="urn:isbn:1-931666-22-9"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     relatedencoding="MARC21">
+   <eadheader countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              repositoryencoding="iso15511"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924">
+      <eadid mainagencycode="US-lu"
+             countrycode="US"
+             url="http://www.lib.lsu.edu/sites/default/files/sc/findaid/2492.xml"/>
+      <filedesc>
+         <titlestmt>
+            <titleproper>A Guide to the Overton Brooks Papers</titleproper>
+            <subtitle>A Collection in the Louisiana and Lower Mississippi Valley Collections</subtitle>
+            <author>LSU Libraries Special Collections Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>LSU Libraries Special Collections</publisher>
+            <address>
+               <addressline>Hill Memorial Library</addressline>
+               <addressline>95 Field House Drive</addressline>
+               <addressline>Baton Rouge, LA 70803</addressline>
+            </address>
+            <date>2018</date>
+         </publicationstmt>
+      </filedesc>
+   </eadheader>
+   <archdesc level="collection" type="inventory" relatedencoding="MARC21">
+      <did>
+         <unittitle encodinganalog="245$a">Overton Brooks Papers</unittitle>
+         <unitid countrycode="US" encodinganalog="099" repositorycode="US-lu">Mss. 2492, 2520</unitid>
+         <unitdate type="inclusive" encodinganalog="245$f" normal="1898/1970">1898-1970</unitdate>
+         <unitdate type="bulk" encodinganalog="245$g" normal="1936/1961">1936-1961</unitdate>
+         <origination>
+            <persname encodinganalog="100">Brooks, Overton, 1897-1961</persname>
+         </origination>
+         <physdesc>
+            <extent encodinganalog="300$a">23.5 linear feet</extent>
+            <extent encodinganalog="300$a">36 volumes</extent>
+         </physdesc>
+         <langmaterial encodinganalog="546$a">
+            <language langcode="eng">English</language>
+         </langmaterial>
+         <repository encodinganalog="852$a">
+            <corpname>LSU Libraries Special Collections</corpname>
+            <subarea>Louisiana and Lower Mississippi Valley Collection</subarea>
+         </repository>
+         <physloc encodinganalog="852$h">31:81; 35:67-77; 50:81; OS:B; P:15; VAULT:3; VAULT:21</physloc>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <p>Originals housed in the vault are not to be accessed. Use photocopies instead.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <p>Physical rights are retained by the LSU Libraries. Copyright is retained in accordance with U.S. copyright laws.</p>
+      </userestrict>
+      <relatedmaterial encodinganalog="544 1">
+         <p>Overton Brooks Miscellany, Mss. 2521, Louisiana and Lower Mississippi Valley Collections, LSU Libraries, Baton Rouge, La.</p>
+         <p>Samuel S. Caldwell Scrapbooks, Mss. 3547, Louisiana and Lower Mississippi Valley Collections, LSU Libraries, Baton Rouge, La.</p>
+      </relatedmaterial>
+      <prefercite encodinganalog="524">
+         <p>Overton Brooks Papers, Mss. 2492, 2520, Louisiana and Lower Mississippi Valley Collections, LSU Libraries, Baton Rouge, La.</p>
+      </prefercite>
+      <arrangement encodinganalog="351">
+         <p>The papers are organized into nine series: Correspondence, Speeches, Congressional Trips, Printed Materials, Photographs, Manuscript Volumes, Display Items, Vault, and Audio/Visual.</p>
+      </arrangement>
+      <altformavail encodinganalog="530">
+         <p>Some records also available as photocopies.</p>
+      </altformavail>
+      <bioghist encodinganalog="545">
+         <p>Overton Brooks (1897-1961) was born near Baton Rouge, La. He served in Europe during the First World War with the Sixth Field Artillery, First Division, Regular Army. Brooks received a law degree from Louisiana State University in 1923, was admitted to the bar the same year, and commenced practice in Shreveport, La. He served as United States Commissioner from 1925 to 1935. Brooks was representative for the 4th U.S. Congressional District of Louisiana from January 3, 1937, until his death on September 16, 1961. He was the first chairman of the House Committee on Science and Astronautics, established in 1959.</p>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <p>The Overton Brooks Papers contain correspondence, photographs, speeches, travel diaries, scrapbooks, picture albums, artifacts, and printed materials documenting primarily Brooks' service as representative for the 4th U.S. Congressional District of Louisiana. The papers reflect his interests and activities in military affairs, water-related issues such as flood control and levees in Louisiana, the development of American aerospace technology, and Louisiana political campaigns. The papers also contain materials concerning his service during World War I, family life, and funeral.</p>
+      </scopecontent>
+      <otherfindaid encodinganalog="555">
+         <p>Finding aid available.</p>
+      </otherfindaid>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Brooks, Overton, 1897-1961.</persname>
+         <persname source="lcnaf" encodinganalog="600">Brooks, Mollie Meriwether.</persname>
+         <persname source="lcnaf" encodinganalog="600">Brooks, Laura Anne.</persname>
+         <famname source="lcnaf" encodinganalog="600 3">Brooks family.</famname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Congress. House. Committee on Armed Services.</corpname>
+         <corpname source="lcnaf" encodinganalog="610">United States. Congress. House. Committee on Science and Astronautics.</corpname>
+         <subject source="lcsh" encodinganalog="650">Floods -- Louisiana.</subject>
+         <subject source="lcsh" encodinganalog="650">Flood control -- Louisiana.</subject>
+         <subject source="lcsh" encodinganalog="650">Levees -- Louisiana.</subject>
+         <subject source="lcsh" encodinganalog="650">Astronautics and state -- United States.</subject>
+         <subject source="lcsh" encodinganalog="650">Military bases, American.</subject>
+         <subject source="lcsh" encodinganalog="650">Aeronautics, Military -- United States.</subject>
+         <subject source="lcsh" encodinganalog="650">African Americans -- Civil rights.</subject>
+         <subject source="lcsh" encodinganalog="650">Political campaigns -- Louisiana.</subject>
+         <subject source="lcsh" encodinganalog="650">World War, 1914-1918 -- Personal narratives, American.</subject>
+         <geogname source="lcsh" encodinganalog="651">Barksdale Air Force Base (La.)</geogname>
+         <geogname source="lcsh" encodinganalog="651">United States -- Armed Forces.</geogname>
+      </controlaccess>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unittitle>Overton Brooks Papers</unittitle>
+               <container>Box 23-26</container>
+               <physloc>31:81</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Overton Brooks Papers</unittitle>
+               <container>Box 1a-22, 27</container>
+               <physloc>35:67-77</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Overton Brooks Papers</unittitle>
+               <container>Cedar Box</container>
+               <physloc>50:81</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Overton Brooks Papers</unittitle>
+               <container>Box 1a-2</container>
+               <physloc>OS:B</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Overton Brooks Papers</unittitle>
+               <container>V.1-36</container>
+               <physloc>P:15</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Overton Brooks Papers</unittitle>
+               <container>Box 1-2</container>
+               <physloc>VAULT:3</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Overton Brooks Papers</unittitle>
+               <container>Folder 1</container>
+               <physloc>VAULT:21</physloc>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

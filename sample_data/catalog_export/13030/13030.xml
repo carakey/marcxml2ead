@@ -1,0 +1,221 @@
+<record>
+    <leader>03937cpcaa2200601Ia 45 0</leader>
+    <controlfield tag="001">ocn824529187</controlfield>
+    <controlfield tag="003">OCoLC</controlfield>
+    <controlfield tag="005">20130117091011.0</controlfield>
+    <controlfield tag="008">130117s1978 lau eng d</controlfield>
+    <datafield ind1=" " ind2=" " tag="035">
+        <subfield code="a">(OCoLC)824529187</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="040">
+        <subfield code="a">LUU</subfield>
+        <subfield code="c">LUU</subfield>
+        <subfield code="e">dacs</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="049">
+        <subfield code="a">LUUU</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="100">
+        <subfield code="a">Hall, H. P.</subfield>
+        <subfield code="q">(Harlan Page),</subfield>
+        <subfield code="d">1838-1907,</subfield>
+        <subfield code="e">interviewee.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="245">
+        <subfield code="a">H.P. and Margery Hall oral history interview,</subfield>
+        <subfield code="f">1978.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+        <subfield code="a">4</subfield>
+        <subfield code="f">sound cassettes (4 hours, 38 minutes);</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+        <subfield code="3">Index</subfield>
+        <subfield code="a">(17 leaves)</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+        <subfield code="a">This collection includes materials accessioned as Mss.
+            4700.0581.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+        <subfield code="a">A digital version of the index (pdf) exists for duplication
+            purposes.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+        <subfield code="a">A digital version of the audio recording (mp3) exists for duplication
+            purposes and public access in the Special Collections Reading Room.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="506">
+        <subfield code="a">No restrictions on access.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="545">
+        <subfield code="a">H.P. Hall received his military training at Sandhurst from 1932 to 1934
+            and served in the Indian Army and Indian Political Service during his time in India from
+            1938 until 1962. He was the Assistant Political Agent in Lora Lai District.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="545">
+        <subfield code="a">Margery Hall went to India on holiday in 1938 to stay with friends and
+            returned again in 1939 to be married. Her husband, H.P. Hall, served in the Indian Army
+            and Indian Political Service and was in India from 1938 to 1962. Margery worked in the
+            Red Cross and Women's Voluntary Service during World War II.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="540">
+        <subfield code="a">Copyright and property rights are assigned to the interviewees and
+            jointly to the Centre of South Asian Studies at the University of Cambridge and the
+            Louisiana State University and A &amp; M College Libraries and its successor
+            agencies.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+        <subfield code="a">Interview conducted by Frank de Caro and Rosan Jordan.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="524">
+        <subfield code="a">H.P. and Margery Hall Oral History Interview, Mss. 4700.0581, Louisiana
+            and Lower Mississippi Valley Collections, LSU Libraries, Baton Rouge, La.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="580">
+        <subfield code="a">Forms part of the British Voices from South Asia Series.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+        <subfield code="a">Hall, H. P.</subfield>
+        <subfield code="q">(Harlan Page),</subfield>
+        <subfield code="d">1838-1907</subfield>
+        <subfield code="v">Interviews.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="600">
+        <subfield code="a">Hall, Margery</subfield>
+        <subfield code="v">Interviews.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="610">
+        <subfield code="a">India.</subfield>
+        <subfield code="b">Army</subfield>
+        <subfield code="x">Military life.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="610">
+        <subfield code="a">India (Empire).</subfield>
+        <subfield code="b">Indian Political Service.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+        <subfield code="a">British</subfield>
+        <subfield code="z">India</subfield>
+        <subfield code="x">Social life and customs</subfield>
+        <subfield code="y">20th century.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+        <subfield code="a">Boys</subfield>
+        <subfield code="z">India</subfield>
+        <subfield code="x">Social life and customs</subfield>
+        <subfield code="y">20th century.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+        <subfield code="a">East Indians</subfield>
+        <subfield code="z">India</subfield>
+        <subfield code="x">Social life and customs</subfield>
+        <subfield code="y">20th century.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+        <subfield code="a">Women</subfield>
+        <subfield code="z">India</subfield>
+        <subfield code="x">Social life and customs</subfield>
+        <subfield code="y">20th century.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+        <subfield code="a">Soldiers</subfield>
+        <subfield code="z">India</subfield>
+        <subfield code="x">Social life and customs</subfield>
+        <subfield code="y">20th century.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+        <subfield code="a">Great Britain</subfield>
+        <subfield code="x">Colonies</subfield>
+        <subfield code="z">Asia</subfield>
+        <subfield code="x">Administration.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+        <subfield code="a">India</subfield>
+        <subfield code="x">Economic conditions</subfield>
+        <subfield code="y">1918-1947.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+        <subfield code="a">India</subfield>
+        <subfield code="x">Politics and government</subfield>
+        <subfield code="y">1919-1947.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+        <subfield code="a">India</subfield>
+        <subfield code="x">Social conditions</subfield>
+        <subfield code="y">20th century.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+        <subfield code="a">Borneo</subfield>
+        <subfield code="x">Politics and government</subfield>
+        <subfield code="y">20th century.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="651">
+        <subfield code="a">Malaysia</subfield>
+        <subfield code="x">Politics and government</subfield>
+        <subfield code="y">20th century.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="7" tag="655">
+        <subfield code="a">Oral histories.</subfield>
+        <subfield code="2">aat</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Hall, Margery,</subfield>
+        <subfield code="e">interviewee.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">De Caro, F. A.,</subfield>
+        <subfield code="d">1943-</subfield>
+        <subfield code="e">interviewer.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="700">
+        <subfield code="a">Jordan, R. A.</subfield>
+        <subfield code="q">(Rosan A.)</subfield>
+        <subfield code="e">interviewer.</subfield>
+    </datafield>
+    <datafield ind1="2" ind2=" " tag="710">
+        <subfield code="a">Louisiana State University (Baton Rouge, La.).</subfield>
+        <subfield code="b">T. Harry Williams Center for Oral History.</subfield>
+        <subfield code="t">H.P. and Margery Hall oral history interview.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="773">
+        <subfield code="t">British voices from South Asia series.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="994">
+        <subfield code="a">C0</subfield>
+        <subfield code="b">LUU</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="2" tag="856">
+        <subfield code="3">Index for part 1:</subfield>
+        <subfield code="u"
+            >http://www.lib.lsu.edu/sites/all/files/oralhistory/abstracts/britishvoices/T845.ind.pdf</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="2" tag="856">
+        <subfield code="3">Index for parts 2-3:</subfield>
+        <subfield code="u"
+            >http://www.lib.lsu.edu/sites/all/files/oralhistory/abstracts/britishvoices/T847.ind.pdf</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="2" tag="856">
+        <subfield code="3">Index for parts 4-5:</subfield>
+        <subfield code="u"
+            >http://www.lib.lsu.edu/sites/all/files/oralhistory/abstracts/britishvoices/T848.ind.pdf</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="2" tag="856">
+        <subfield code="3">Index for parts 6-7:</subfield>
+        <subfield code="u"
+            >http://www.lib.lsu.edu/sites/all/files/oralhistory/abstracts/britishvoices/T849.ind.pdf</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="999">
+        <subfield code="a">L:4700.0581</subfield>
+        <subfield code="w">ALPHANUM</subfield>
+        <subfield code="c">1</subfield>
+        <subfield code="i">3855985-1001</subfield>
+        <subfield code="l">LLMVC</subfield>
+        <subfield code="m">SPEC_COLL</subfield>
+        <subfield code="r">Y</subfield>
+        <subfield code="s">Y</subfield>
+        <subfield code="t">ARCH-MSS</subfield>
+        <subfield code="u">1/17/2013</subfield>
+        <subfield code="x">MANUSCRIPT</subfield>
+    </datafield>
+</record>

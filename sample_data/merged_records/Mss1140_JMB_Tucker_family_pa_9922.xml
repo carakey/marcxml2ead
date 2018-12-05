@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+   <leader>05928cpc a2200853Ia 45 0</leader>
+   <controlfield tag="001">ocn231748414</controlfield>
+   <controlfield tag="003">OCoLC</controlfield>
+   <controlfield tag="005">20080612102119.0</controlfield>
+   <controlfield tag="008">080612i18351914lau                 eng d</controlfield>
+   <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)231748414</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">LUU</subfield>
+      <subfield code="c">LUU</subfield>
+      <subfield code="e">dacs</subfield>
+   </datafield>
+   <datafield ind1="0" ind2=" " tag="041">
+      <subfield code="a">eng</subfield>
+      <subfield code="a">fre</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="100">
+      <subfield code="a">Tucker, J. M. B.</subfield>
+      <subfield code="q">(James M. B.),</subfield>
+      <subfield code="d">1828-1890.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="245">
+      <subfield code="a">J.M.B. Tucker family papers,</subfield>
+      <subfield code="f">1835-1914.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="246">
+      <subfield code="i">Alternate title:</subfield>
+      <subfield code="a">J.M.B. Tucker papers</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">580</subfield>
+      <subfield code="f">items.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">11</subfield>
+      <subfield code="f">v.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="500">
+      <subfield code="a">This manuscript group includes materials accessioned as Mss. 1140.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="506">
+      <subfield code="a">No restrictions on access.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="545">
+      <subfield code="a">J.M.B. Tucker, a native of Tennessee, was a judge in Natchitoches, La. In 1848 he married Caledonia Cornelia Marrs, a native of Shelbyville, Tenn., who was raised by relatives in Canton, Miss., following the death of her parents. Their children were Josephine Ashton Tucker and Mary Lee Tucker, who died in infancy; Callie Marrs Tucker; Lucie Tucker; Lillie Maude Tucker; Beverly Tucker; John M. Tucker; Florence Tucker, who married Ernest Hertzog and moved to St. Louis, Mo.; and James B. Tucker.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="520">
+      <subfield code="a">Papers of J.M.B. Tucker, a judge in Natchitoches, La., and his family largely consist of correspondence of Caledonia Marrs Tucker, his wife; his daughters Callie, Lucie, Lillie, and Florence and their friends; and his son James B. Tucker, a lawyer based in Colfax, La. The correspondence concerns church activities, dances, balls, picnics, musical performances, and other social events in Natchitoches; gardening, clothing, and various domestic matters; the deaths, weddings, and children of family members both in Natchitoches and in Texas and Tennessee; and Callie Tucker's visits to relatives in Canton, Miss. Included among the correspondence are valentines; birthday cards; musical performance programs; dance cards; invitations to balls and dances; newspaper clippings; a proposal of marriage from James Genius to Callie Tucker, who rejected it; letters of condolence written to the family following the death of J.M.B. Tucker in 1890 and Lucie Tucker in 1904; and letters to Caledonia Tucker from her grandchildren in St. Louis, Mo.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="520">
+      <subfield code="a">A second group of papers pertains to the business affairs of J.M.B. Tucker and includes documents associated with the sale and purchase of lands in Natchitoches Parish; receipts for the purchase of groceries, articles of clothing, dry goods, and other items from various Louisiana businesses; receipts for the payment of state, property, and other taxes; and papers related to business dealings with various Natchitoches residents. Scattered among these papers is correspondence related to Caledonia Tucker's efforts to sell lands belonging to the family, collect dividends from shares in oil companies, and settle the business affairs of her husband following his death.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="520">
+      <subfield code="a">The papers also include a collection of postcards, some written by family members traveling in the United States and abroad; small portrait photographs of the Tucker family; and an assortment of devotional and prayer cards, mostly in French.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="540">
+      <subfield code="a">Physical rights are retained by the LSU Libraries. Copyright is retained in accordance with U.S. copyright laws.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="524">
+      <subfield code="a">J.M.B. Tucker Papers, Mss. 1140, Louisiana and Lower Mississippi Valley Collections, LSU Libraries, Baton Rouge, La.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Tucker, J. M. B</subfield>
+      <subfield code="q">(James M. B.),</subfield>
+      <subfield code="d">1828-1890.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Tucker, Caledonia Cornelia Marrs,</subfield>
+      <subfield code="d">1831-1910.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Tucker, Callie Marrs,</subfield>
+      <subfield code="d">1858-1933.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Tucker, Lucie,</subfield>
+      <subfield code="d">1852-1904.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Tucker, Lillie Maude,</subfield>
+      <subfield code="d">1864-1946.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Tucker, Florence.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="600">
+      <subfield code="a">Tucker, James B.</subfield>
+   </datafield>
+   <datafield ind1="3" ind2="0" tag="600">
+      <subfield code="a">Tucker family.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Church attendance</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Balls (Parties)</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Picnics</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Music</subfield>
+      <subfield code="x">Performance</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Gardening</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Clothing and dress</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Weddings</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Funeral rites and ceremonies</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Marriage proposals</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Female friendship</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Real property</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Land value taxation</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Taxation</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Dry-goods</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Dividends</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">Natchitoches (La.)</subfield>
+      <subfield code="x">Social life and customs</subfield>
+      <subfield code="y">19th century.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">Natchitoches (La.)</subfield>
+      <subfield code="x">Social life and customs</subfield>
+      <subfield code="y">20th century.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">Colfax (La.)</subfield>
+      <subfield code="x">History</subfield>
+      <subfield code="y">19th century.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="651">
+      <subfield code="a">Canton (Miss.)</subfield>
+      <subfield code="x">Social life and customs</subfield>
+      <subfield code="y">19th century.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Letters (correspondence)</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Valentines.</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Birthday cards.</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Programs.</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Dance cards.</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Invitations.</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Clippings (information artifacts)</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Receipts (financial records)</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Postcards.</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="655">
+      <subfield code="a">Cards (information artifacts )</subfield>
+      <subfield code="2">aat</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="656">
+      <subfield code="a">Judges</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Natchitoches.</subfield>
+      <subfield code="2">lcsh</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="7" tag="656">
+      <subfield code="a">Lawyers</subfield>
+      <subfield code="z">Louisiana</subfield>
+      <subfield code="z">Colfax.</subfield>
+      <subfield code="2">lcsh</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">Tucker, Caledonia Marrs,</subfield>
+      <subfield code="d">1831-1910.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">Tucker, Callie Marrs,</subfield>
+      <subfield code="d">1858-1933.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">Tucker, Lucie,</subfield>
+      <subfield code="d">1852-1904.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">Tucker, Lillie Maude,</subfield>
+      <subfield code="d">1864-1946.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">Tucker, Florence.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="700">
+      <subfield code="a">Tucker, James B.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="994">
+      <subfield code="a">Z0</subfield>
+      <subfield code="b">LUU</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="948">
+      <subfield code="h">HELD BY LUU - 0 OTHER HOLDINGS</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="999">
+      <subfield code="a">W:128</subfield>
+      <subfield code="w">ALPHANUM</subfield>
+      <subfield code="c">1</subfield>
+      <subfield code="i">3255858-1001</subfield>
+      <subfield code="l">LLMVC</subfield>
+      <subfield code="m">SPEC_COLL</subfield>
+      <subfield code="r">Y</subfield>
+      <subfield code="s">Y</subfield>
+      <subfield code="t">ARCH-MSS</subfield>
+      <subfield code="u">6/12/2008</subfield>
+      <subfield code="x">MANUSCRIPT</subfield>
+      <subfield code="o">.STAFF. 6/12/2008JRN;</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="999">
+      <subfield code="a">OS:T</subfield>
+      <subfield code="w">ALPHANUM</subfield>
+      <subfield code="c">1</subfield>
+      <subfield code="i">3255858-2001</subfield>
+      <subfield code="l">LLMVC</subfield>
+      <subfield code="m">SPEC_COLL</subfield>
+      <subfield code="r">Y</subfield>
+      <subfield code="s">Y</subfield>
+      <subfield code="t">ARCH-MSS</subfield>
+      <subfield code="u">3/22/2011</subfield>
+   </datafield>
+   <holdings>
+      <record>
+         <leader>00159cv  a22000734  4500</leader>
+         <controlfield tag="001">977789</controlfield>
+         <controlfield tag="008">1103222g    8   1001ba   0110322</controlfield>
+         <datafield ind1="8" ind2=" " tag="852">
+            <subfield code="b">SPEC_COLL</subfield>
+            <subfield code="c">LLMVC</subfield>
+            <subfield code="h">OS:T</subfield>
+         </datafield>
+         <datafield ind1="4" ind2="1" tag="866">
+            <subfield code="8">1</subfield>
+            <subfield code="a">folder 1-3</subfield>
+         </datafield>
+      </record>
+      <record>
+         <leader>00157cv  a22000734  4500</leader>
+         <controlfield tag="001">964334</controlfield>
+         <controlfield tag="008">0806122p    8   1001baeng0110105</controlfield>
+         <datafield ind1="8" ind2=" " tag="852">
+            <subfield code="b">SPEC_COLL</subfield>
+            <subfield code="c">LLMVC</subfield>
+            <subfield code="h">W:128</subfield>
+         </datafield>
+         <datafield ind1="4" ind2="1" tag="866">
+            <subfield code="8">1</subfield>
+            <subfield code="a">box 1-8</subfield>
+         </datafield>
+      </record>
+   </holdings>
+</record>

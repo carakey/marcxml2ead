@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:ead="urn:isbn:1-931666-22-9"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd"
+     relatedencoding="MARC21">
+   <eadheader countryencoding="iso3166-1"
+              dateencoding="iso8601"
+              repositoryencoding="iso15511"
+              langencoding="iso639-2b"
+              scriptencoding="iso15924">
+      <eadid mainagencycode="US-lu" countrycode="US"/>
+      <filedesc>
+         <titlestmt>
+            <titleproper>A Guide to the H.P. And Margery Hall Oral History Interview</titleproper>
+            <subtitle>A Collection in the Louisiana and Lower Mississippi Valley Collections</subtitle>
+            <author>LSU Libraries Special Collections Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>LSU Libraries Special Collections</publisher>
+            <address>
+               <addressline>Hill Memorial Library</addressline>
+               <addressline>95 Field House Drive</addressline>
+               <addressline>Baton Rouge, LA 70803</addressline>
+            </address>
+            <date>2018</date>
+         </publicationstmt>
+      </filedesc>
+   </eadheader>
+   <archdesc level="collection" type="inventory" relatedencoding="MARC21">
+      <did>
+         <unittitle encodinganalog="245$a">H.P. And Margery Hall Oral History Interview</unittitle>
+         <unitid countrycode="US" encodinganalog="099" repositorycode="US-lu">Mss. 4700.0581</unitid>
+         <unitdate type="inclusive" encodinganalog="245$f" normal="1978">1978</unitdate>
+         <origination>
+            <persname encodinganalog="100">Hall, H. P. (Harlan Page), 1838-1907, interviewee</persname>
+         </origination>
+         <origination>
+            <persname encodinganalog="700">Hall, Margery, interviewee</persname>
+            <persname encodinganalog="700">De Caro, F. A., 1943- interviewer</persname>
+            <persname encodinganalog="700">Jordan, R. A. (Rosan A.) interviewer</persname>
+            <corpname encodinganalog="710">Louisiana State University (Baton Rouge, La.). T. Harry Williams Center for Oral History. H.P. and Margery Hall oral history interview</corpname>
+         </origination>
+         <physdesc>
+            <extent encodinganalog="300$a">4 sound cassettes (4 hours, 38 minutes)</extent>
+            <extent encodinganalog="300$a">(17 leaves)</extent>
+         </physdesc>
+         <repository encodinganalog="852$a">
+            <corpname>LSU Libraries Special Collections</corpname>
+            <subarea>Louisiana and Lower Mississippi Valley Collection</subarea>
+         </repository>
+         <physloc encodinganalog="852$h">L:4700.0581</physloc>
+      </did>
+      <accessrestrict encodinganalog="506">
+         <p>No restrictions on access.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+         <p>Copyright and property rights are assigned to the interviewees and jointly to the Centre of South Asian Studies at the University of Cambridge and the Louisiana State University and A &amp; M College Libraries and its successor agencies.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+         <p>H.P. and Margery Hall Oral History Interview, Mss. 4700.0581, Louisiana and Lower Mississippi Valley Collections, LSU Libraries, Baton Rouge, La.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <p>H.P. Hall received his military training at Sandhurst from 1932 to 1934 and served in the Indian Army and Indian Political Service during his time in India from 1938 until 1962. He was the Assistant Political Agent in Lora Lai District.</p>
+         <p>Margery Hall went to India on holiday in 1938 to stay with friends and returned again in 1939 to be married. Her husband, H.P. Hall, served in the Indian Army and Indian Political Service and was in India from 1938 to 1962. Margery worked in the Red Cross and Women's Voluntary Service during World War II.</p>
+      </bioghist>
+      <controlaccess>
+         <persname source="lcnaf" encodinganalog="600">Hall, H. P. (Harlan Page), 1838-1907 -- Interviews.</persname>
+         <persname source="lcnaf" encodinganalog="600">Hall, Margery -- Interviews.</persname>
+         <corpname source="lcnaf" encodinganalog="610">India. Army -- Military life.</corpname>
+         <corpname source="lcnaf" encodinganalog="610">India (Empire). Indian Political Service.</corpname>
+         <subject source="lcsh" encodinganalog="650">British -- India -- Social life and customs -- 20th century.</subject>
+         <subject source="lcsh" encodinganalog="650">Boys -- India -- Social life and customs -- 20th century.</subject>
+         <subject source="lcsh" encodinganalog="650">East Indians -- India -- Social life and customs -- 20th century.</subject>
+         <subject source="lcsh" encodinganalog="650">Women -- India -- Social life and customs -- 20th century.</subject>
+         <subject source="lcsh" encodinganalog="650">Soldiers -- India -- Social life and customs -- 20th century.</subject>
+         <geogname source="lcsh" encodinganalog="651">Great Britain -- Colonies -- Asia -- Administration.</geogname>
+         <geogname source="lcsh" encodinganalog="651">India -- Economic conditions -- 1918-1947.</geogname>
+         <geogname source="lcsh" encodinganalog="651">India -- Politics and government -- 1919-1947.</geogname>
+         <geogname source="lcsh" encodinganalog="651">India -- Social conditions -- 20th century.</geogname>
+         <geogname source="lcsh" encodinganalog="651">Borneo -- Politics and government -- 20th century.</geogname>
+         <geogname source="lcsh" encodinganalog="651">Malaysia -- Politics and government -- 20th century.</geogname>
+         <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
+      </controlaccess>
+      <dsc>
+         <c01 level="collection">
+            <did>
+               <unittitle>H.P. And Margery Hall Oral History Interview</unittitle>
+               <container>Tape 845.3, 847, 847, 849.1</container>
+               <physloc>L:4700.0581</physloc>
+            </did>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>H.P. And Margery Hall Oral History Interview</unittitle>
+               <container>Folder 1</container>
+               <physloc>L:4700.0581</physloc>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
