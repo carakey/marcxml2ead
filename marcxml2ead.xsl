@@ -42,7 +42,7 @@
                         test="//record/datafield[@tag = '856'][@ind1 = '4'][@ind2 = '2']/subfield[@code = 'u'][contains(., 'findaid')]">
                         <xsl:attribute name="url">
                             <xsl:value-of
-                                select="replace((//record/datafield[@tag = '856'][@ind1 = '4'][@ind2 = '2']/subfield[@code = 'u'])[contains(., 'findaid')], '.pdf', '.xml')"
+                                select="replace((//record/datafield[@tag = '856'][@ind1 = '4'][@ind2 = '2']/subfield[@code = 'u'])[contains(., 'findaid')][1], '.pdf', '.xml')"
                             />
                         </xsl:attribute>
                     </xsl:if>
@@ -266,39 +266,55 @@
                 <xsl:if test="datafield[@tag = '300']">
                     <physdesc>
                         <xsl:for-each select="datafield[@tag = '300']">
-                            <extent encodinganalog="300$a">
-                                <xsl:choose>
-                                    <xsl:when test="matches(subfield[@code = 'a'],'\sp\.\)$')">
-                                        <xsl:value-of select="replace(subfield[@code = 'a'],'p\.','pages')"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="normalize-space(replace(subfield[@code = 'a'], '[,;:]{1}$', ''))"/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                                <xsl:if test="subfield[@code = 'f']">
-                                    <xsl:text> </xsl:text>
-                                    <xsl:for-each select="subfield[@code = 'f']">
-                                        <!-- Replaces certain abbreviated terms -->
-                                        <xsl:choose>
-                                            <xsl:when test="matches(., 'p\.')">
-                                                <xsl:value-of select="replace(normalize-space(.), 'p.', 'pages')"/>
-                                            </xsl:when>
-                                            <xsl:when test="matches(., 'v\.')">
-                                                <xsl:value-of select="replace(normalize-space(.), 'v.', 'volumes')"/>
-                                            </xsl:when>
-                                            <xsl:when test="matches(., 'ft\.')">
-                                                <xsl:value-of select="replace(normalize-space(.), 'ft.', 'feet')"/>
-                                            </xsl:when>
-                                            <xsl:when test="matches(., 'in\.')">
-                                                <xsl:value-of select="replace(normalize-space(.), 'in.', 'inches')"/>
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:value-of select="replace(normalize-space(.), '\p{P}$', '')"/>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </xsl:for-each>
-                                </xsl:if>
-                            </extent>
+                            <xsl:for-each select="subfield[@code = 'a']">
+                                <extent encodinganalog="300$a">
+                                    <xsl:choose>
+                                        <xsl:when test="matches(., '\sp\.\)$')">
+                                            <xsl:value-of select="replace(., 'p\.', 'pages')"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of
+                                                select="normalize-space(replace(., '[,;:]{1}$', ''))"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                    <xsl:if test="following-sibling::subfield[@code = 'f']">
+                                        <xsl:text> </xsl:text>
+                                        <xsl:for-each
+                                            select="following-sibling::subfield[@code = 'f'][1]">
+                                            <!-- Replaces certain abbreviated terms -->
+                                            <xsl:choose>
+                                                <xsl:when test="matches(., 'p\.')">
+                                                  <xsl:value-of
+                                                  select="replace(normalize-space(.), 'p.', 'pages')"
+                                                  />
+                                                </xsl:when>
+                                                <xsl:when test="matches(., 'v\.')">
+                                                  <xsl:value-of
+                                                  select="replace(normalize-space(.), 'v.', 'volumes')"
+                                                  />
+                                                </xsl:when>
+                                                <xsl:when test="matches(., 'ft\.')">
+                                                  <xsl:value-of
+                                                  select="replace(normalize-space(.), 'ft.', 'feet')"
+                                                  />
+                                                </xsl:when>
+                                                <xsl:when test="matches(., 'in\.')">
+                                                  <xsl:value-of
+                                                  select="replace(normalize-space(.), 'in.', 'inches')"
+                                                  />
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                  <xsl:value-of
+                                                  select="replace(normalize-space(.), '[,;:]{1}$', '')"
+                                                  />
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:for-each>
+                                    </xsl:if>
+                                </extent>
+                            </xsl:for-each>
+
                         </xsl:for-each>
                     </physdesc>
                 </xsl:if>
@@ -399,10 +415,10 @@
                 </repository>
                 
                 <!-- Use 852$z for physloc -->
-                <xsl:if test="//holdings/record/datafield[@tag = '852'][subfield[@code = 'h']]">
+                <xsl:if test="//holdings/record/datafield[@tag = '852'][subfield[@code = 'h'][not(. = '')]]">
                     <physloc encodinganalog="852$h">
-                        <xsl:for-each select="//datafield[@tag = '852'][subfield[@code = 'h']]">
-                            <xsl:value-of select="normalize-space(subfield[@code = 'h'])"/>
+                        <xsl:for-each select="//datafield[@tag = '852']/subfield[@code = 'h'][not(. = '')]">
+                            <xsl:value-of select="normalize-space(.)"/>
                             <xsl:if test="position() != last()">
                                 <xsl:text>; </xsl:text>
                             </xsl:if>
@@ -414,16 +430,20 @@
             
             <!-- Use 506$a for accessrestrict, or insert default text --> 
             <accessrestrict encodinganalog="506">
-                <p>
-                    <xsl:choose>
-                        <xsl:when test="datafield[@tag = '506'][subfield[@code = 'a']]">
-                            <xsl:value-of select="normalize-space(datafield[@tag = '506'][subfield[@code = 'a']])"/>
-                        </xsl:when>
-                        <xsl:otherwise>
+                <xsl:choose>
+                    <xsl:when test="datafield[@tag = '506'][subfield[@code = 'a']]">
+                        <xsl:for-each select="datafield[@tag = '506'][subfield[@code = 'a']]">
+                            <p>
+                                <xsl:value-of select="normalize-space(.)"/>
+                            </p>
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <p>
                             <xsl:text>There are no restrictions on access.</xsl:text>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </p>
+                        </p>
+                    </xsl:otherwise>
+                </xsl:choose>
             </accessrestrict>
             
             <!-- Use 540$a for userestrict, or insert default text -->
@@ -649,8 +669,14 @@
                     <xsl:variable name="call_number"
                         select="../datafield[@tag = '852']/subfield[@code = 'h']"/>
                     <xsl:variable name="container">
-                        <xsl:variable name="text"
-                            select="replace(normalize-space(subfield[@code = 'a']), '\p{P}$', '')"/>
+                        <xsl:variable name="text">
+                            <xsl:for-each select="subfield[@code = 'a']">
+                                <xsl:value-of select="replace(normalize-space(.), '\p{P}$', '')"/>
+                                <xsl:if test="position() != last()">
+                                    <xsl:text>; </xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:variable>
                         <xsl:for-each select="tokenize($text, ' ')">
                             <xsl:value-of select="upper-case(substring(., 1, 1))"/>
                             <xsl:value-of select="substring(., 2)"/>
