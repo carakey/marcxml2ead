@@ -36,7 +36,7 @@ __NOTE: The resulting document is not valid MARCXML.__
 
 - It merges the holdings files into the single MARCXML file with a <record> root element.
 - It creates a <holdings> wrapper tag and copies the full <record> for each holdings record into this wrapper.
-- It names the resulting file with an Mss. number identifer, the item title, and the name of the source directory.
+- It names the resulting file with an Mss. number identifier, the item title, and the name of the source directory.
 
 To run this XSLT stylesheet with Saxon, pass the name of each MARCXML directory as the "current_folder" parameter. You can use the included bash script _marcxml_holdings_merge.sh_, which is a shortcut to the following:
 

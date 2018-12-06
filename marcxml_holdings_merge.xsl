@@ -7,7 +7,7 @@
     This XSLT 2.0 stylesheet takes as its source directories that hold one MARCXML bibliographic file each, plus its associated holdings record files. 
     It merges the holdings files into the single MARCXML file with a <record> root element. 
     It creates a <holdings> wrapper tag and copies the full <record> for each holdings record into this wrapper.
-    It names the resulting file with an Mss. number identifer, the item title, and the name of the source directory.
+    It names the resulting file with an Mss. number identifier, the item title, and the name of the source directory.
     
     To run this XSLT with Saxon, pass the name of the directory as the "current_folder" parameter. 
     
